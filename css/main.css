@@ -18,11 +18,12 @@
    
   }
  .container {
-     width: 800px;
-     height: 500px;
+     width: 900px;
+     height: 600px;
      margin: 0 auto;
-     background-color: teal;
-     position: relative;
+     padding: 50px;
+     background-color: aqua;
+   
  }
 
 .box {
