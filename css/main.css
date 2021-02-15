@@ -18,9 +18,11 @@
    
   }
  .container {
-     width: 1500px;
-     height: 1000px;
+     width: 800px;
+     height: 500px;
+     margin: 0 auto;
      background-color: teal;
+     position: relative;
  }
 
 .box {
@@ -28,6 +30,7 @@
     height: 150px;
     background-color: red;
     margin: 10px;
+    
     border-radius: 5%;
     max-width: 100%;
     }
@@ -39,6 +42,78 @@
 }
 
 .pattern {
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     background-color: white;
 }
+
+.box:nth-child(2) {
+    position:relative;
+    left: 170px;
+    bottom: 160px;
+
+}
+
+
+.box:nth-child(3) {
+    position:relative;
+    left: 340px;
+    bottom: 320px;
+
+}
+
+
+.box:nth-child(4) {
+    position:relative;
+    left: 510px;
+    bottom: 480px;
+
+}
+ 
+.box:nth-child(5) {
+    position:relative;
+   left: 3140 px;
+    bottom: 480px;
+
+}
+
+.box:nth-child(6) {
+    position:relative;
+    left: 170px;
+    bottom: 640px;
+}
+
+.box:nth-child(7) {
+    position:relative;
+    left: 340px;
+    bottom: 800px;
+}
+.box:nth-child(8) {
+    position:relative;
+    left: 510px;
+    bottom: 960px;
+}
+
+.box:nth-child(9) {
+    position:relative;
+    bottom: 960px;
+}
+
+.box:nth-child(10) {
+    position:relative;
+    left: 170px;
+    bottom: 1120px;
+}
+
+.box:nth-child(11) {
+    position:relative;
+    left: 340px;
+    bottom: 1280px;
+}
+
+.box:nth-child(12) {
+    position:relative;
+    left: 510px;
+    bottom: 1440px;
+}
+
