@@ -1,4 +1,7 @@
   * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
       background-color: aqua;
   }
   
@@ -14,9 +17,28 @@
     text-shadow: 2px 2px #fa8602;
    
   }
+ .container {
+     width: 1500px;
+     height: 1000px;
+     background-color: teal;
+ }
 
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 5%;
+    max-width: 100%;
+    }
+ 
+.card {
+    max-width: 100%;
+    background-color: white;
 
-/*CONTAINER*/
-   .container {
-       background-color: aqua;
-   }
+}
+
+.pattern {
+    max-height: 100%;
+    background-color: white;
+}
