@@ -1,120 +1,128 @@
-  * {
-      margin:0;
-      padding:0;
-      box-sizing: border-box;
-      background-color: aqua;
-  }
-  
-  
-  /*TITOLO*/
-  h1 {
-    font-family: 'Nerko One', cursive;
-    font-size: 80px;
-    color: rgb(244, 248, 2);
-    padding-top: 5px;
-    margin: 10px 10px;
-    text-align: center;
-    text-shadow: 2px 2px #fa8602;
-   
-  }
- .container {
-     width: 900px;
-     height: 600px;
-     margin: 0 auto;
-     padding: 50px;
-     background-color: aqua;
-   
- }
+
+ * {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+
+/*TITOLO*/
+h1 {
+font-family: 'Nerko One', cursive;
+font-size: 80px;
+color: rgb(244, 248, 2);
+padding-top: 5px;
+margin: 10px 10px;
+text-align: center;
+text-shadow: 2px 2px #fa8602;
+
+}
+.container {
+ position: relative;
+ left: 120px;
+ width: 900px;
+ height: 600px;
+ margin: 0 auto;
+ padding: 50px;
+ background-color: aqua;
+
+}
 
 .box {
-    width: 150px;
-    height: 150px;
-    background-color: red;
-    margin: 10px;
-    
-    border-radius: 5%;
-    max-width: 100%;
-    }
- 
+width: 150px;
+height: 150px;
+background-color: red;
+margin: 10px;
+
+border-radius: 5%;
+max-width: 100%;
+}
+
 .card {
-    max-width: 100%;
-    background-color: white;
+max-width: 100%;
+background-color: white;
 
 }
 
 .pattern {
-    width: 100%;
-    height: 100%;
-    background-color: white;
+width: 100%;
+height: 100%;
+background-color: white;
 }
 
 .box:nth-child(2) {
-    position:relative;
-    left: 170px;
-    bottom: 160px;
+position:relative;
+left: 170px;
+bottom: 160px;
+background-image: ;
 
 }
 
 
 .box:nth-child(3) {
-    position:relative;
-    left: 340px;
-    bottom: 320px;
+position:relative;
+left: 340px;
+bottom: 320px;
 
 }
 
 
 .box:nth-child(4) {
-    position:relative;
-    left: 510px;
-    bottom: 480px;
+position:relative;
+left: 510px;
+bottom: 480px;
 
 }
- 
+
 .box:nth-child(5) {
-    position:relative;
-   left: 3140 px;
-    bottom: 480px;
+position:relative;
+left: 3140 px;
+bottom: 480px;
 
 }
 
 .box:nth-child(6) {
-    position:relative;
-    left: 170px;
-    bottom: 640px;
+position:relative;
+left: 170px;
+bottom: 640px;
 }
 
 .box:nth-child(7) {
-    position:relative;
-    left: 340px;
-    bottom: 800px;
+position:relative;
+left: 340px;
+bottom: 800px;
 }
 .box:nth-child(8) {
-    position:relative;
-    left: 510px;
-    bottom: 960px;
+position:relative;
+left: 510px;
+bottom: 960px;
 }
 
 .box:nth-child(9) {
-    position:relative;
-    bottom: 960px;
+position:relative;
+bottom: 960px;
 }
 
 .box:nth-child(10) {
-    position:relative;
-    left: 170px;
-    bottom: 1120px;
+position:relative;
+left: 170px;
+bottom: 1120px;
 }
 
 .box:nth-child(11) {
-    position:relative;
-    left: 340px;
-    bottom: 1280px;
+position:relative;
+left: 340px;
+bottom: 1280px;
 }
 
 .box:nth-child(12) {
-    position:relative;
-    left: 510px;
-    bottom: 1440px;
+position:relative;
+left: 510px;
+bottom: 1440px;
 }
 
+.card:hover img
+.card:hover h3 {
+display: inline-block;
+}
