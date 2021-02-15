@@ -1,0 +1,22 @@
+  * {
+      background-color: aqua;
+  }
+  
+  
+  /*TITOLO*/
+  h1 {
+    font-family: 'Nerko One', cursive;
+    font-size: 80px;
+    color: rgb(244, 248, 2);
+    padding-top: 5px;
+    margin: 10px 10px;
+    text-align: center;
+    text-shadow: 2px 2px #fa8602;
+   
+  }
+
+
+/*CONTAINER*/
+   .container {
+       background-color: aqua;
+   }
